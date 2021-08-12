@@ -17,9 +17,9 @@ a Sharpe ratio above 2.5, on par with the performance of LSTM networks, and
 significantly outperforms UniTempr, further supporting our hypothesis that it is
 essential to consider the temporal state of the entire multivariate timeseries when producing forecasts.
 
-### Generates low dimensional embeddings using graphSAGE for highly multivariate time-series as a method for forecasting values via KNN
 
-Pipeline:
+## Pipeline
+### Generates low dimensional embeddings using graphSAGE for highly multivariate time-series as a method for forecasting values via KNN
 1. Import multivariate time-series CSV file and features for each time-series CSV file
 2. Generate a time-series dataframe for each day and the previous 60 days with corresponding feature dataframe. Also generate dataframe of next 10 days
 3. For each of these sub dataframes: 
