@@ -19,7 +19,7 @@ essential to consider the temporal state of the entire multivariate timeseries w
 
 
 ## Pipeline
-### Generates low dimensional embeddings using graphSAGE for highly multivariate time-series as a method for forecasting values via KNN
+### Converts multivariate timeseries to a network structure, generates a low dimensional embedding using graphSAGE graph neural networks, then compares this temporal embedding of the timesseries to historical data to produce a forecast.
 1. Import multivariate time-series CSV file and features for each time-series CSV file
 2. Generate a time-series dataframe for each day and the previous 60 days with corresponding feature dataframe. Also generate dataframe of next 10 days
 3. For each of these sub dataframes: 
