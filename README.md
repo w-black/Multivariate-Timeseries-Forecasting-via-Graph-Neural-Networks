@@ -1,4 +1,4 @@
-# Multivariate Time-series Forecasting via Graph Neural Netwokrs
+# Multivariate Time-series Forecasting via Graph Neural Networks
 ### Generates low dimensional embeddings using graphSAGE for highly multivariate time-series as a method for forecasting values via KNN
 
 Pipeline:
