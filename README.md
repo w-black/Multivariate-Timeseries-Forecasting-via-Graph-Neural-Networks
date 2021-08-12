@@ -1,23 +1,21 @@
-# Multivariate Time-series Forecasting via Graph Neural Networks
+# TemPr: Multivariate Time-series Forecasting via Graph Neural Networks
 
 ## Abstract 
 
-In the current stock price forecasting literature there exists a large body of work
+In the current forecasting literature there exists a large body of work
 devoted to multivariate techniques which leverage the dependencies between individual
 time series to produce a prediction. Despite the strengths of these methods, they
-fail to take into account the network architecture displayed by the total market.
+fail to take into account the interconnectivity between the time series and the resulting network architecture displayed by the total collection.
 We introduce a novel multivariate forecast strategy called TemPr, that uses graph
-neural networks (GNNs) to uncover low-dimensional representations of the stock
-market over time, and tracks changes in this temporal structure. Additionally,
-unlike existing methods, TemPr incorporates volume and beta time series for each
-stock in its forecasting pipeline. We also present the univariate sibling of this
+neural networks (GNNs) to uncover low-dimensional representations of the multivariate time series, and tracks changes in this temporal structure. Additionally,
+unlike existing methods, TemPr incorporates supplementary feature time series  in its forecasting pipeline. We also present the univariate sibling of this
 method, UniTempr, which harnesses the power of GNNs to compare sub-intervals
 of a time series in order to produce a forecast. The power in taking the multivariate
 network approach is demonstrated in our results where we back-test these techniques
-from 2007-2019, comparing their Sharpe ratios and P&L scores. TemPr achieves
-a Sharpe ratio above 2.5, improving on the performance of LSTM networks, and
+from 2007-2019 on the S&P500, comparing their Sharpe ratios and P&L scores. TemPr achieves
+a Sharpe ratio above 2.5, on par with the performance of LSTM networks, and
 significantly outperforms UniTempr, further supporting our hypothesis that it is
-essential to consider the temporal state of the entire market when producing forecasts.
+essential to consider the temporal state of the entire multivariate timeseries when producing forecasts.
 
 ### Generates low dimensional embeddings using graphSAGE for highly multivariate time-series as a method for forecasting values via KNN
 
