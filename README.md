@@ -1,4 +1,4 @@
-# TemPr: Multivariate Time-series Forecasting via Graph Neural Networks
+# TemPr: Multivariate Time-series Forecasting via Graph Neural Networks and Temporal Tracking
 
 ## Abstract 
 
