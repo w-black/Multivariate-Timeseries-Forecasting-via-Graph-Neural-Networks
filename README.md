@@ -1,5 +1,7 @@
 # TemPr: Multivariate Time-series Forecasting via Graph Neural Networks and Temporal Tracking
 
+Published results: https://www.researchgate.net/publication/382672276_Financial_Time_Series_Forecasting_via_Graph_Neural_Networks
+
 ## Abstract 
 
 In the current forecasting literature there exists a large body of work
